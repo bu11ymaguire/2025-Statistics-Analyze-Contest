@@ -73,8 +73,6 @@ $$
 
 ### 4-1. 최종 데이터
 
-분석의 모든 결과는 `대여소_안전도_분류결과.csv` 파일로 저장되었습니다. 이 파일은 각 대여소의 기본 정보와 함께 계산된 위험 지수, 최종 안전도 등급을 포함합니다.
-
 | station_id | name | latitude | longitude | total_rentals | nearby_accidents | risk_index | safety_class |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 303 | 광화문역 1번출구 앞 | 37.5718 | 126.975 | 72387 | 15 | 2.0721 | Danger |
@@ -91,17 +89,11 @@ $$
 * **주황색(Normal)**: 보통 수준의 위험도를 가진 대여소
 * **빨간색(Danger)**: 상대적으로 위험도가 높은 대여소
 
-![Bike Station Safety Classification on Seoul Map](https://i.imgur.com/your-image-placeholder.png)
-*(이 줄의 괄호 안에 실제 이미지 파일의 경로 또는 URL을 입력하세요. 예: ./images/final_map.png)*
-
 시각화 결과, 특정 도로 및 상업/유흥 지역을 따라 '위험' 등급의 대여소가 밀집하는 경향을 확인할 수 있었습니다.
 
 ## 5. 코드
 
-본 분석에 사용된 전체 코드는 아래 Jupyter Notebook 파일에서 확인하실 수 있습니다.
-
-* `[분석노트북_파일이름.ipynb](분석노트북_파일링크)`
-    *(이 줄의 괄호 안에 실제 노트북 파일의 링크를 입력하세요.)*
+본 분석에 사용된 전체 코드는 저장소 내 Jupyter Notebook 파일에서 확인하실 수 있습니다.
 
 ## 6. 향후 과제 (Future Work)
 
